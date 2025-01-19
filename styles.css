@@ -77,14 +77,22 @@ header {
     margin: 0%;
 }
 
+/* sponsors section */
+.sponsors {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+
 @media screen and (max-width:576px) {
-    header{
+    header {
         width: 90%;
         margin: auto;
         flex-direction: column;
     }
 
-    .nav{
+    .nav {
         display: none;
     }
 
@@ -94,16 +102,16 @@ header {
         flex-direction: column-reverse;
     }
 
-    .banner-img img{
+    .banner-img img {
         width: 350px;
-        margin: auto ;
+        margin: auto;
     }
 
-    .banner-title{
+    .banner-title {
         width: auto;
     }
 
-    .banner-content > p{
+    .banner-content>p {
         width: auto;
     }
 }
